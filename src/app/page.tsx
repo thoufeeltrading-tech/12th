@@ -896,9 +896,6 @@ export default function LearningPortal() {
           </div>
 
           <div className="flex gap-4 justify-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8" onClick={() => setView('units')}>
-              <Play className="w-4 h-4 mr-2" /> Start Learning
-            </Button>
             <Button size="lg" variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8" onClick={() => setView('flashcards')}>
               <Layers className="w-4 h-4 mr-2" /> Flashcards
             </Button>
